@@ -1,0 +1,223 @@
+/*Desktop Navigation*/  
+.myNav {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    
+}
+
+.right {
+    padding-right: 50px;
+
+}
+
+.right a{
+    float: right;
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: SF Pro Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.right a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.left a{
+    float: left;
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: SF Pro Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 50px;
+
+}
+
+.left a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.left, .right {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(70, 70, 70);
+    background-color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: white;
+    color: rgb(70, 70, 70);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: white;
+    color: rgb(70, 70, 70);
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: rgb(70, 70, 70);
+    color: white;
+  }
+
+  @media (min-width: 1025px) {
+    /* Style the navigation menu */
+    .topnav nav {
+        display: none;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+    
+    /* Style navigation menu links */
+    .topnav a {
+        display: none;
+    }
+    
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: none;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        display: none;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+        display: none;
+    }
+}
+
+/*Bootstrap Containers*/
+.left {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatRight {
+    float: right;
+}
+
+.paddingTop {
+    padding-top: 200px;
+}
+
+.paddingBottom {
+    padding-bottom: 50px;
+}
+
+.col {
+    width: 50%  !important;
+    padding: 50px;
+    height: 1080px;
+    background-color: white;
+}
+
+.imgResize {
+    width: 100%;
+}
+
+.footerHeight {
+    height: 800px !important;
+    background-color: white !important;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #desktop {
+      text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    #desktop {
+        display: none;
+    }
+}
+
+#mobile {
+    text-decoration: none;
+}
+
+#mobile img {
+    width: 100%;
+}
+
+#mobile .col {
+    height: 300px;
+    background-color: white;
+}
+
+@media only screen and (min-width: 1025px) {
+    #mobile {
+        display: none;
+    }
+}
+
+.paddingMobile {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.paddingTopMobile {
+    padding-top: 50px !important;
+}
+
+.footerFullMobile {
+    height: 770px !important;
+}

@@ -1,7 +1,9 @@
 @font-face {
     font-family: SF Pro Display;
     src: url('../fonts/SF-Pro-Display-Regular.otf') format('SFProDisplay-Regular'), 
-      url('fonts/SF-Pro-Display-Bold.otf') format('SFProDisplay-Bold');
+      url('fonts/SF-Pro-Display-Bold.otf') format('SFProDisplay-Bold'),
+    url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff'),
+    url('../fonts/SF-Font-Pro.dmg');
   }
 
 @font-face {

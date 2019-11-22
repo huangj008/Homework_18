@@ -1,12 +1,12 @@
 @font-face {
     font-family: SF Pro Display;
-    src: url('../fonts/SF-Pro-Display-Regular.otf') format('SFProDisplay'), 
+    src: url('../fonts/SF-Pro-Display-Regular.otf') format('SFProDisplay-Regular'), 
       url('fonts/SF-Pro-Display-Bold.otf') format('SFProDisplay-Bold');
   }
 
 @font-face {
     font-family: SF Pro Text;
-    src: url('../fonts/SF-Pro-Text-Regular.otf') format('SFProText'), 
+    src: url('../fonts/SF-Pro-Text-Regular.otf') format('SFProText-Regular'), 
       url('fonts/SF-Pro-Text-Bold.otf') format('SFProText-Bold');
   }
 
